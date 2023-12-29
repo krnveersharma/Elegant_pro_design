@@ -4,9 +4,9 @@ import "../App.css";
 const Body = () => {
   return (
     <div style={{ height: 'calc(90vh - 60px)' }} className=' bg-gradient-to-b from-[#e2e6f9] to-[#A7D6E8] w-full flex flex-col  items-center justify-center mt-[-1px]'>
-        <div className='relative w-[150px] h-[150px] border rounded-full bg-[#5F5CA9] shadow-xl sm:h-[100px] sm:w-[100px]'>
+        <div className='relative w-[150px] h-[150px] border rounded-full border-[#5F5CA9] bg-[#5F5CA9] sm:h-[100px] sm:w-[100px] shadow-md shadow-gray-700'>
         <div className='absolute inset-0 border-2 border-dashed border-[#000000] rounded-full h-[170px] w-[170px] left-[-11px] top-[-10px] flex items-center justify-center text-white text-2xl font-container1  sm:h-[120px] sm:w-[120px] sm:text-sm'>
-          <div>
+          <div className='flex flex-col justify-center items-center'>
             <div>GRAPHIC</div>
             <div>DESIGN</div>
           </div>
