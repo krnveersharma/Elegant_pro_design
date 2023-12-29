@@ -11,7 +11,7 @@ const Topicon = () => {
                     <div style={{ textDecorationColor: '#cc5500', textDecorationLine: 'underline' }}>ant</div>
                 </div>
             </div>
-            <div className=' mt-[-15px] ml-12 text-xs flex gap-4'>
+            <div className=' mt-[-15px] ml-12 text-xs flex gap-4 sm:ml-[50px]'>
                 <div>PRO</div>
                 <div>DESIGNS</div>
             </div>
