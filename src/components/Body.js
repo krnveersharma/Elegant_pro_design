@@ -12,12 +12,12 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-col gap-10'>
-        <div className='flex mt-[-180px] justify-between sm:mt-[-180px]'>
-          <span className='ml-12'>
+      <div className='flex flex-col gap-10 sm:gap-8'>
+        <div className='flex mt-[-180px] justify-between sm:mt-[-150px]'>
+          <span className='ml-12 sm:ml-8'>
             <Card color={'#F46CAA'} txt={'BANNER'} />
           </span>
-          <span className='mr-12' >
+          <span className='mr-12 sm:mr-8' >
             <Card color={'#F49064'} txt={'LOGO'} />
           </span>
         </div>
@@ -30,10 +30,10 @@ const Body = () => {
           </span>
         </div>
         <div className='flex justify-between'>
-          <span className='ml-12'>
+          <span className='ml-12 sm:ml-8'>
             <Card color={'#3CB679'} txt={'BUISNESS'} txt2={'CARD'} />
           </span>
-          <span className='mr-12' >
+          <span className='mr-12 sm:mr-8' >
             <Card color={'#1DBCB0'} txt={'BROCHURE'} />
           </span>
         </div>
